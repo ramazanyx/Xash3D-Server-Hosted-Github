@@ -21,11 +21,6 @@ It's, opening server via Github codespaces.
 
 ![image](https://user-images.githubusercontent.com/85716242/235938335-4dec5c3e-9bbb-4ae9-ab5d-ebf38f7cd9b6.png)
 
-* I think you edited server.cfg file. Now, you can open your server. Write `cd bin && chmod 777 xash3d* && ./xash3d -game valve +map crossfire +maxplayers 32 +port 27015 +public 1 +sv_nat 1` to terminal. Btw if you wanna open counter-strike 1.6 server instead, you should write `-game cstrike`, do not `-game valve` and also use map `de_dust2`, `crossfire` instead.
+* I think you edited server.cfg file. Now, you can open your server. Write `cd bin && chmod 777 xash3d* && ./xash3d -game cstrike +map de_dust2 +maxplayers 32 +port 27015 +public 1 +sv_nat 1`
 
 ![image](https://user-images.githubusercontent.com/85716242/235939929-fc28ac18-de04-4a68-a2c8-0caf7c7f7c66.png)
-
-* Now, your server successfully opened.
-
-## About Direct server
-Sorry but, you can't open direct servers. Just, you can open NAT server. Because codespaces doesn't support UDP ports. You can enjoy NAT servers.
